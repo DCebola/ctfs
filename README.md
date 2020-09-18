@@ -1,1 +1,1 @@
-Hello, here are the writeups from a few ctf challenges I solved.
+Hello, here are the write-ups from a few ctf challenges I solved.
