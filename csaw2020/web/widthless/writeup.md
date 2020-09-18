@@ -8,7 +8,7 @@ Initially we're given the following message:
 
 > Welcome to web! Let's start off with something kinda funky :) http://web.chal.csaw.io:5018
 
-![Screenshot from 2020-09-18 11-14-02](./11-14-02.png)
+![Screenshot from 2020-09-18 11-14-02](./Screenshot from 2020-09-18 Screenshot from 2020-09-18 11-14-02.png)
 
 From the website's name **Hidden.me** and a particular comment in its html source code <!-- zwsp is fun! --> we find that the challenge is about **zero-width-space characters stenography **.
 
@@ -46,11 +46,11 @@ print(decoded)
 
 We obtain **alm0st_2_3z** which is still not the flag. This is where the form in the website is useful. After submitting the string a new message appears:
 
-![Screenshot from 2020-09-18 13-02-24](./13-02-24.png)
+![Screenshot from 2020-09-18 13-02-24](./Screenshot from 2020-09-18 13-02-24.png)
 
 From what we have, the <pwd> can only be **alm0st_2_3z** so lets try to go to http://web.chal.csaw.io:5018/ahsdiufghawuflkaekdhjfaldshjfvbalerhjwfvblasdnjfbldf/alm0st_2_3z :
 
-![Screenshot from 2020-09-18 13-07-07](./13-07-07.png)
+![Screenshot from 2020-09-18 13-07-07](./Screenshot from 2020-09-18 13-07-07.png)
 
 Still no flag to be found... let's try again the same approach:
 
@@ -84,8 +84,8 @@ print(decoded)
 
 We obtain **u_unh1d_m3** which is still not the flag. Submitting it again in the form:
 
-![Screenshot from 2020-09-18 13-18-35](./13-18-35.png)
+![Screenshot from 2020-09-18 13-18-35](./Screenshot from 2020-09-18 13-18-35.png)
 
 **alm0st_2_3z** being the first <pwd>, <pwd2> can only be **u_unh1d_m3**. Going to http://web.chal.csaw.io:5018/19s2uirdjsxbh1iwudgxnjxcbwaiquew3gdi/alm0st_2_3z/u_unh1d_m3 we can finally obtain the flag! :)
 
-![Screenshot from 2020-09-18 13-21-03](./13-21-03.png)
+![Screenshot from 2020-09-18 13-21-03](./Screenshot from 2020-09-18 13-21-03.png)
