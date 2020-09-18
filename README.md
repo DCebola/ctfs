@@ -1,2 +1,1 @@
-# ctfs
-A repository where solutions and write ups to ctfs I participated can be found.
+Hello, in this repository I saved a few of the solutions and writeups of the ctfs I participated in. :)
