@@ -1,1 +1,1 @@
-Hello, in this repository I saved a few of the solutions and writeups of the ctfs I participated in. :)
+Hello, here are the writeups from a few ctf challenges I solved.
