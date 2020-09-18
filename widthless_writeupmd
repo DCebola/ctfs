@@ -1,0 +1,17 @@
+# CSAW CTF Qualification Round 2020
+
+## Widthless
+
+This was a 50 points **web** challenge.
+
+Initially were prompt with the following:
+
+> Welcome to web! Let's start off with something kinda funky :) http://web.chal.csaw.io:5018
+
+![Screenshot from 2020-09-18 11-14-02](/home/diogo/Pictures/Screenshot from 2020-09-18 11-14-02.png)
+
+From the website's name *Hidden.me* and a particular comment in its html source code <!-- zwsp is fun! --> we find that the challenge is about **zero-width-space characters stenography **.
+
+![oie_nu7SKcZ0BNgo](/home/diogo/Downloads/oie_nu7SKcZ0BNgo.png)
+
+The only obvious place to hide a secret message is in the hmtl code of the website so with a little python script 
