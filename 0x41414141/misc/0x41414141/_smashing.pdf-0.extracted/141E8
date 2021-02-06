@@ -1,0 +1,33 @@
+/CIDInit/ProcSet findresource begin
+12 dict begin
+begincmap
+/CIDSystemInfo<<
+/Registry (Adobe)
+/Ordering (UCS)
+/Supplement 0
+>> def
+/CMapName/Adobe-Identity-UCS def
+/CMapType 2 def
+1 begincodespacerange
+<00> <FF>
+endcodespacerange
+14 beginbfchar
+<01> <003D>
+<02> <007B>
+<03> <2264>
+<04> <E09E>
+<05> <002F>
+<06> <E09F>
+<07> <E085>
+<08> <007D>
+<09> <E0C1>
+<0A> <2211>
+<0B> <221E>
+<0C> <2212>
+<0D> <0021>
+<0E> <22C5>
+endbfchar
+endcmap
+CMapName currentdict /CMap defineresource pop
+end
+end
